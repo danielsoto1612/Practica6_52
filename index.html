@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h2>Formularios</h2>
+        <form action="">
+            <fieldset>
+                <legend>Datos Generales</legend>
+                <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre">  
+                </div>
+                
+                <div>
+                        <label for="edad">Edad:</label>
+                        <input type="number" name="edad" id="edad"> 
+                </div>
+                <div>
+                    <label for="cf">Color de Fondo</label>
+                    <input type="color" name="cf" id="cf">
+
+                </div>
+                <div>
+                    <label for="clave">Password</label>
+                    <input type="password" name="clave" id="clave">
+                </div>
+                <div>
+                    <label for="">Comentarios:</label>
+                    <textarea name="info" id="info" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="metodo_pago">Metodo de Pago</label>
+                    <select name="metodo_pago" id="metodo_pago">
+                        <option value="12">Efectivo</option>
+                        <option value="5">Debito</option>
+                        <option value="4">Credito</option>
+                        <option value="1">Bitcoin</option>
+                    </select>
+                    <div>
+                        <label for="metodo_pago_fav">Metodo de Pago Favorito</label>
+                            <select name="metodo_pago_fav" id="metodo_pago_fav" multiple>
+                                <option value="12">Efectivo</option>
+                                <option value="5">Debito</option>
+                                <option value="4">Credito</option>
+                                <option value="1">Bitcoin</option>
+                    </div>
+
+                    <div>
+                        <label for="Vehiculo">Vehiculo:</label>   
+                        <select name="Vehiculo" id="Vehiculo">
+                                <optgroup label="Camioneta"> 
+                                    <option value="1">Toyota</option>
+                                    <option value="2">Silverado</option>
+                                </optgroup>
+                                <optgroup label="Autos Compactos">
+                                    <option value="3">Sentra</option>
+                                    <option value="4">Versa</option>
+                                </optgroup>
+                        </select>  
+
+                                         
+                    </div>
+                    <div>
+                        <label for="foto">Archivo foto empleado</label>
+                        <input type="file" name="foto" id="foto">
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+
+
+
+                </div>
+
+                
+            </fieldset>
+        </form>
+
+        <h1>Tablas HTML</h1>
+        
+        <table border="1px">
+            
+            <tr>
+                <th>Actividad</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sabado<th>
+                <th>Domingo</th>
+            </tr>
+            <tr>
+                <th>Ir al Gimnasio</th>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+               
+            </tr>
+
+
+
+
+
+            
+        </table>
+    </main>
+</body>
+</html>
